@@ -1,0 +1,10 @@
+<div class="col-md-6">
+  <h4>Tutorials List</h4>
+  <ul class="list-group">
+    <li
+      class="list-group-item"
+      *ngFor="let tutorial of tutorials;">
+      {{ tutorial.title }}{{tutorial.description}}
+    </li>
+  </ul>
+
